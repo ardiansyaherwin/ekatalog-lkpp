@@ -633,7 +633,7 @@
 		
 
         <script src="{{ asset('javascripts/jquery-1.12.1.min.js') }}" type="text/javascript"> </script>
-        <script src="{{ asset('paket/jrs/bundle.js') }}?v=2023.24.2" type="text/javascript"> </script>
+        <script src="{{{ asset('paket/jrs/bundle.js') }}?v=2023.24.2" type="text/javascript"> </script>
         <script src="{{ asset('javascripts/jquery-ui.min.js') }}"></script>
 		<script src="{{ asset('javascripts/bootstrap-datatables-v2.min.js') }}" type="text/javascript"> </script>
 <!--		<script src="https://code.jquery.com/jquery-1.12.1.min.js" type="text/javascript"> </script>-->
@@ -680,7 +680,7 @@
         
 <!-- viewer distro (with pan and zoom) -->
 <script src="/public/bpmn-js/dist/bpmn-viewer.production.min.js"></script>
-<script src="{{ asset('paket/bpmn-js/bpmn-navigated-viewer.production.min.js') }}"></script>
+<script src="{{{ asset('paket/bpmn-js/bpmn-navigated-viewer.production.min.js') }}"></script>
 <script type="text/javascript">
     jQuery(document).ready(function ($) {
 
@@ -999,8 +999,8 @@
 		
 			<script type="text/javascript" src="{{ asset('aftlogin/javascripts/conversejsdist/converse.min.js') }}" charset="utf-8"></script>
 		
-		<script type="text/javascript" src="{ asset('paket/emojis.js') }}" charset="utf-8"></script>
-		<script type="text/javascript" src="{ asset('paket/jquery.toast.min.js') }}"></script>
+		<script type="text/javascript" src="{{ asset('paket/emojis.js') }}" charset="utf-8"></script>
+		<script type="text/javascript" src="{{ asset('paket/jquery.toast.min.js') }}"></script>
 		<converse-root></converse-root>
 		<script type="text/javascript">
 

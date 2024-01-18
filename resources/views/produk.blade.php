@@ -43523,8 +43523,8 @@ PUMP+Logo W</option>
 		
 			<script type="text/javascript" src="{{ asset('aftlogin/javascripts/conversejsdist/converse.min.js') }}" charset="utf-8"></script>
 		
-		<script type="text/javascript" src="{ asset('aftlogin/javascripts/conversejsdist/emojis.js') }}" charset="utf-8"></script>
-		<script type="text/javascript" src="{ asset('aftlogin/javascripts/toast/jquery.toast.min.js') }}"></script>
+		<script type="text/javascript" src="{{ asset('aftlogin/javascripts/conversejsdist/emojis.js') }}" charset="utf-8"></script>
+		<script type="text/javascript" src="{{ asset('aftlogin/javascripts/toast/jquery.toast.min.js') }}"></script>
 		<converse-root></converse-root>
 		<script type="text/javascript">
 
