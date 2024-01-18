@@ -73,7 +73,7 @@ return [
             // 'port' => env('DB_PORT', '5432'),
             'port' => $DATABASE_URL['port'],
             // 'database' => env('DB_DATABASE', 'forge'),
-            'database' => ltrim($DATABASE_URL['path'], charlist: '/'),
+            'database' => ltrim($DATABASE_URL['path'], '/'),
             // 'username' => env('DB_USERNAME', 'forge'),
             'username' => $DATABASE_URL['user'],
             // 'password' => env('DB_PASSWORD', ''),
