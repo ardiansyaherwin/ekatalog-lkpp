@@ -633,7 +633,7 @@
 		
 
         <script src="{{ asset('javascripts/jquery-1.12.1.min.js') }}" type="text/javascript"> </script>
-        <script src="{{ asset('paket/rjs/bundle.js') }}?v=2023.24.2" type="text/javascript"> </script>
+        <script src="{{ asset('paket/jrs/bundle.js') }}?v=2023.24.2" type="text/javascript"> </script>
         <script src="{{ asset('javascripts/jquery-ui.min.js') }}"></script>
 		<script src="{{ asset('javascripts/bootstrap-datatables-v2.min.js') }}" type="text/javascript"> </script>
 <!--		<script src="https://code.jquery.com/jquery-1.12.1.min.js" type="text/javascript"> </script>-->
