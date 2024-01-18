@@ -1,0 +1,79 @@
+.table-scroll-overflow-y {
+    display: block;
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mtop {
+    margin-top: 15px;
+}
+
+.mdown {
+    margin-bottom: 15px;
+}
+
+.displaynone {
+    display: none;
+}
+
+.etalase-overflow {
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.conversejs label {
+    display: none !important;
+}
+
+#converse-login-jid {
+    display: none !important;
+}
+
+#converse-login-password {
+    display: none !important;
+}
+
+.form-group.form-check.login-trusted {
+    display: none !important;
+}
+
+.form-control.errorcustom {
+    border-color: red !important;
+}
+
+.form-control.successcustom {
+    border-color: green !important;
+}
+
+#converse-login-trusted {
+    display: none !important;
+}
+
+#converse-login.btn-primary {
+    content: 'test' !important;
+}
+
+#_loading {
+    position: fixed !important;
+}
+
+@media screen and (min-width: 992px) {
+    .card-list-custom {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-auto-rows: 1fr;
+        grid-row-gap: 10px;
+    }
+    .col-md-3-custom {
+        width: 100% !important;
+    }
+    .card-item-custom {
+        height: 100% !important;
+    }
+}
