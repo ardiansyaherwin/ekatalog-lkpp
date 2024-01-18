@@ -22,7 +22,7 @@
     <link rel="stylesheet" media="screen" href="{{ asset('/stylesheets/bootstrap-datatables-v1_10_8.min.css') }}">
     <link rel="stylesheet" media="screen" href="{{ asset('/stylesheets/bootstrap-social.css') }}">
     <link rel="stylesheet" media="screen" href="{{ asset('/stylesheets/landing.css') }}">
-    <link rel="stylesheet" media="screen" href="{{ asset('/javascripts/datepicker/css/bootstrap-datepicker.min.css') }}">
+    <link rel="stylesheet" media="screen" href="{{ asset('/javascripts/datapicker/css/bootstrap-datepicker.min.css') }}">
     <link rel="stylesheet" media="screen" href="{{ asset('/javascripts/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css') }}">
     <link rel="stylesheet" media="screen" href="{{ asset('/javascripts/select2/css/select2.min.css') }}">
     <link rel="stylesheet" media="screen" href="{{ asset('/javascripts/jQuery-Tags-Input-master/src/jquery.tagsinput.css') }}">
@@ -887,8 +887,8 @@
 <script src="{{ asset('/javascripts/jquery-ui.min.js') }}"></script>
 <script src="{{ asset('/javascripts/bootstrap.min.js') }}" type="text/javascript"> </script>
 <script src="{{ asset('/javascripts/utility-home.js') }}" type="text/javascript"> </script>
-<script src="{{ asset('/javascripts/moment/min/moment.min.js') }}" type="text/javascript"> </script>
-<script src="{{ asset('/javascripts/moment/locale/id.js') }}" type="text/javascript"> </script>
+<script src="{{ asset('aftlogin/javascripts/moment/min/moment.min.js') }}" type="text/javascript"> </script>
+<script src="{{ asset('aftlogin/javascripts/moment/locale/id.js') }}" type="text/javascript"> </script>
 <script src="{{ asset('/javascripts/ekko-lightbox.min.js') }}" type="text/javascript"> </script>
 <script type="text/javascript" src="{{ asset('/javascripts/jquery.loading.min.js') }}"></script>
 

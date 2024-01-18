@@ -579,10 +579,10 @@
         <script src="/public/javascripts/blob/Blob.js" type="text/javascript" ></script>
         <script src="/public/javascripts/utility.js" type="text/javascript"> </script>
         <script src="/public/javascripts/sikap-utility.js" type="text/javascript"> </script>
-	    <script src="/public/javascripts/moment/min/moment.min.js" type="text/javascript"> </script>
+	    <script src="{{ asset('aftlogin/javascripts/moment/min/moment.min.js') }}" type="text/javascript"> </script>
+		<script src="{{ asset('aftlogin/javascripts/moment/locale/id.js') }}" type="text/javascript"> </script>
 	  	<script src="/public/javascripts/Chart.min.js" type="text/javascript"> </script>
 	  	<script src="/public/javascripts/dashboard-data.js" type="text/javascript"> </script>
-	    <script src="/public/javascripts/moment/locale/id.js" type="text/javascript"> </script>
 	    <script src="/public/javascripts/ekko-lightbox.min.js" type="text/javascript"> </script>
 	    <script src="/public/javascripts/sweetalert2/dist/sweetalert2.min.js" type="text/javascript"> </script>
 	    <script src="/public/javascripts/fileuploader-2.2/dist/jquery.fileuploader.min.js" type="text/javascript"> </script>
