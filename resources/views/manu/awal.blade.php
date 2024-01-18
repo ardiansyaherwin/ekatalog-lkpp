@@ -17,7 +17,7 @@
     <link rel="stylesheet" media="screen" href="/public/stylesheets/bootstrap-datatables-v1_10_8.min.css">
     <link rel="stylesheet" media="screen" href="/public/stylesheets/bootstrap-social.css">
     <link rel="stylesheet" media="screen" href="/public/stylesheets/landing.css">
-    <link rel="stylesheet" media="screen" href="/public/javascripts/datepicker/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" media="screen" href="{{ asset('javascripts/datepicker/css/bootstrap-datepicker.min.css') }}">
     <link rel="stylesheet" media="screen" href="/public/javascripts/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css">
     <link rel="stylesheet" media="screen" href="/public/javascripts/select2/css/select2.min.css">
     <link rel="stylesheet" media="screen" href="/public/javascripts/jQuery-Tags-Input-master/src/jquery.tagsinput.css">
