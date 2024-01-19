@@ -301,7 +301,7 @@
             <a href="/publikctr/popularcommoditylist?jenis=Bumdes">
                 <div class="col-md-1 col-sm-1 col-xs-1 comp-category active bumdesSni" title="BUMDes">
                     <div class="wrapper">
-                        <h4 class="center-text title-category">BUMDes</h4>
+                        <h4 class="center-text title-category">BUMDesia</h4>
                     </div>
                 </div>
             </a>
