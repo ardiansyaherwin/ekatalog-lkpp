@@ -308,7 +308,7 @@
             <a href="/publikctr/popularcommoditylist?jenis=SNI">
                 <div class="col-md-1 col-sm-1 col-xs-1 comp-category active bumdesSni" title="SNI">
                     <div class="wrapper">
-                        <h4 class="center-text title-category">SNI</h4>
+                        <h4 class="center-text title-category">SNIxx</h4>
                     </div>
                 </div>
             </a>
