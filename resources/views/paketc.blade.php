@@ -681,7 +681,7 @@
 <!-- viewer distro (with pan and zoom) -->
 <script src="/public/bpmn-js/dist/bpmn-viewer.production.min.js"></script>
 <script src="{{ asset('paket/bpmn-js/bpmn-navigated-viewer.production.min.js') }}"></script>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     jQuery(document).ready(function ($) {
 
     });
@@ -815,7 +815,7 @@
             countcn++;
         });
     });
-</script>
+</script> -->
 
 
 
@@ -857,7 +857,7 @@
         </script>
 
 
-		<!-- <script type="text/javascript">
+		<script type="text/javascript">
         $(document).ready(function(){
             function getEventTarget(e) {
                 e = e || window.event;
@@ -993,7 +993,7 @@
 			
 
         });
-    </script> -->
+    </script>
 
 		<link rel="stylesheet" media="screen" href="{{ asset('aftlogin/javascripts/conversejsdist/converse.min.css') }}">
 		
