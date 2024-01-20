@@ -24,12 +24,12 @@
 		<link rel="stylesheet" media="screen" href="{{ asset('javascripts/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css') }}">
 		<link rel="stylesheet" media="screen" href="{{ asset('javascripts/select2/css/select2.min.css') }}">
 		<link rel="stylesheet" media="screen" href="{{ asset('aftlogin/javascripts/sweetalart2/sweetalert2.min.css') }}">
-		<link rel="stylesheet" media="screen" href="{{ asset('aftlogin/javascripts/fileupload/font/font-fileuploader.css') }}">
+		<link rel="stylesheet" media="screen" href="{{ asset('aftlogin/javascripts/fileupload/front/font-fileuploader.css') }}">
 		<link rel="stylesheet" media="screen" href="{{ asset('aftlogin/javascripts/lightgallery/css/lightgallery.min.css') }}">
 		<link rel="stylesheet" media="screen" href="{{ asset('aftlogin/javascripts/fileupload/jquery.fileuploader.min.css') }}">
 		<link rel="stylesheet" media="screen" href="{{ asset('aftlogin/javascripts/jquery-tags/jquery.tagsinput.css') }}">
-		<link rel="stylesheet" media="screen" href="{{ asset('aftlogin/javascripts/ekko-lightbox.min.css') }}">
-		<link rel="stylesheet" media="screen" href="{{ asset('aftlogin/javascripts/jquery-ui.min.css') }}">
+		<link rel="stylesheet" media="screen" href="{{ asset('aftlogin/stylesheet/ekko-lightbox.min.css') }}">
+		<link rel="stylesheet" media="screen" href="{{ asset('aftlogin/stylesheet/jquery-ui.min.css') }}">
 		<link rel="stylesheet" media="screen" href="{{ asset('plugins/spinner/dist/loading.min.css') }}">
 		<link rel="stylesheet" href="{{ asset('aftlogin/bpmn-jsd-dist-assets/diagram-js.css') }}"/>
 		<link rel="stylesheet" href="{{ asset('aftlogin/bpmn-jsd-dist-assets/front-css/bpmn.css') }}"/>
