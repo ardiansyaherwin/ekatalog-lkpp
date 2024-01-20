@@ -42605,7 +42605,7 @@ PUMP+Logo W</option>
 
 		
         
-<script src="{ asset('aftlogin/javascripts/toast/jquery.toast.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('aftlogin/javascripts/toast/jquery.toast.min.js') }}" type="text/javascript"></script>
 
 <script type="application/javascript">
     $(document).ready(function () {
