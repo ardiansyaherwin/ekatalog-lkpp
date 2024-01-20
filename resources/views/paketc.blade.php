@@ -857,7 +857,7 @@
         </script>
 
 
-		<script type="text/javascript">
+		<!-- <script type="text/javascript">
         $(document).ready(function(){
             function getEventTarget(e) {
                 e = e || window.event;
@@ -993,7 +993,7 @@
 			
 
         });
-    </script>
+    </script> -->
 
 		<link rel="stylesheet" media="screen" href="{{ asset('aftlogin/javascripts/conversejsdist/converse.min.css') }}">
 		
@@ -1002,7 +1002,7 @@
 		<script type="text/javascript" src="{{ asset('paket/emojis.js') }}" charset="utf-8"></script>
 		<script type="text/javascript" src="{{ asset('paket/jquery.toast.min.js') }}"></script>
 		<converse-root></converse-root>
-		<!-- <script type="text/javascript">
+		<script type="text/javascript">
 
 			let isPpk = 'false'
 			let isPenyedia = 'true'
@@ -1199,7 +1199,7 @@
 					});
 				}, "1000");
 			});
-		</script> -->
+		</script>
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"845035e99f483d83","version":"2023.10.0","token":"abed2acbc5e94e58a6f266a2f51452e8"}' crossorigin="anonymous"></script>
 </body>
 </html>
